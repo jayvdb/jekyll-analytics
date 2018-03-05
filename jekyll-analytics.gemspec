@@ -10,4 +10,9 @@ Gem::Specification.new do |s|
   s.files       = ["lib/jekyll-analytics.rb", "lib/analytics/GoogleAnalytics.rb", "lib/analytics/Piwik.rb", "lib/analytics/Matomo.rb", "lib/analytics/MPulse.rb"]
   s.homepage    = 'https://github.com/hendrikschneider/jekyll-analytics'
   s.license     = 'MIT'
+
+  s.add_dependency "jekyll", "~> 3.3"
+
+  s.add_development_dependency "rake"
+  s.add_development_dependency "test-unit"
 end
